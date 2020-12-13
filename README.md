@@ -1,3 +1,14 @@
+### Andres Answer
+
+Hello fellow Coursera student! You can check my answer by sourcing my script and then running:
+
+    A <- matrix( c(5, 1, 0,3,-1, 2, 4, 0,-1), nrow=3, byrow=TRUE)
+    matrix3 <- makeCacheMatrix(A)
+    matrix3$getinv()
+    cacheSolve(matrix3)
+    matrix3$getinv()
+    matrix3$get()
+
 ### Introduction
 
 This second programming assignment will require you to write an R
